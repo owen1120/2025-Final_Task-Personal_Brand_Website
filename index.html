@@ -1,23 +1,133 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="./css/output.css" rel="stylesheet"> <title>My Tailwind v4 Project</title>
-</head>
-<body>
-    <header class="header home-header">
-        <nav class="navi">
-            <ul class="navi-group">
-                <li class="navi-item">首頁</li>
-                <li class="navi-item">部落格</li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main home-main bg-slate-100">
-
-    </main>
-    <footer class="footer home-footer"></footer>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/home.css" />
+    </head>
+    <body>
+        <header class="header home-header">
+            <nav class="navi">
+                <ul class="navi-group">
+                    <li class="navi-item">首頁</li>
+                    <li class="navi-item">部落格</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main home-main">
+            <div class="hero row">
+                <div class="hero-section col-6"></div>
+                <div class="hero-section col-6">
+                    <h1 class="hero-title">Alyse Wang</h1>
+                    <h2 class="hero-subtitle">前端工程師 & 職涯諮詢師</h2>
+                </div>
+                <div class="about-section">
+                    <p>嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
+                    <p>
+                        擅長 React、Vue
+                        等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！
+                    </p>
+                    <ul class="social-contact">
+                        <li><i class="ri-youtube-fill"></i></li>
+                        <li><i class="ri-twitter-x-fill"></i></li>
+                        <li><i class="ri-facebook-circle-fill"></i></li>
+                        <li><i class="ri-linkedin-box-fill"></i></li>
+                        <li><i class="ri-instagram-fill"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services row">
+                <h2 class="title">專業服務與方案</h2>
+                <div class="services-content">
+                    <div class="services-item">
+                        <div class="img">
+                            <img
+                                src="/asset/images/desktop/index/photo.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="para">
+                            <i class="ri-subtract-fill"></i>
+                            <div class="para-group">
+                                <h3 class="title">履歷健檢</h3>
+                                <p>
+                                    履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="img">
+                            <img
+                                src="/asset/images/desktop/index/photo2.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="para">
+                            <i class="ri-subtract-fill"></i>
+                            <div class="para-group">
+                                <h3 class="title">線上諮詢</h3>
+                                <p>
+                                    想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="img">
+                            <img
+                                src="/asset/images/desktop/index/photo3.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="para">
+                            <i class="ri-subtract-fill"></i>
+                            <div class="para-group">
+                                <h3 class="title">網頁開發</h3>
+                                <p>
+                                    想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="img">
+                            <img
+                                src="/asset/images/desktop/index/photo4.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="para">
+                            <i class="ri-subtract-fill"></i>
+                            <div class="para-group">
+                                <h3 class="title">企業內訓</h3>
+                                <p>
+                                    想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#">
+                        <p>聯繫我，取得更多資訊！</p>
+                        <i class="ri-arrow-right-circle-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="blog row"></div>
+        </main>
+        <footer class="footer home-footer"></footer>
+    </body>
 </html>
