@@ -95,10 +95,41 @@
         }
     }
     .blogs {
+        padding: 5rem 0;
         border-bottom: 1px solid var(--border-color);
         .blogs-container {
             width: 75%;
             margin: 0 auto;
+            .search-group {
+                .search-form {
+                    width: calc((100% - 3rem) / 3);
+                    position: relative;
+                    .search-input {
+                        width: 100%;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        line-height: 1.5;
+                        color: var(--text-secondary);
+                        padding: 1rem 3rem 1rem 3.125rem;
+                        border: 1px solid #4b4b4b;
+                        border-radius: 2.5rem;
+                    }
+                    i {
+                        position: absolute;
+                        top: 50%;
+                        left: 1rem;
+                        transform: translateY(-50%);
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .cards-group {
+                padding: 4rem 0;
+                .cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
         }
     }
 }
